@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt" xmlns:th="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Lojista</title>
+    <link rel="stylesheet" href="styleLojista.css">
+    <style>
+        .action-box {
+            border: 2px solid #0074d9; /* Cor da borda do quadrado */
+            border-radius: 8px; /* Borda arredondada */
+            padding: 20px; /* Espaçamento interno */
+            margin-top: 20px; /* Espaçamento superior */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        button,
+        a {
+            margin-top: 10px;
+            color: #ffffff; /* Cor do texto */
+            background-color: #0074d9; /* Cor de fundo */
+            border: none;
+            border-radius: 5px; /* Borda arredondada */
+            padding: 15px 30px; /* Espaçamento interno maior */
+            cursor: pointer;
+            text-decoration: none; /* Removendo sublinhado do link */
+            transition: background-color 0.3s; /* Transição suave de cor ao passar o mouse */
+        }
+
+        button:hover,
+        a:hover {
+            background-color: #0056b3; /* Cor de fundo mais escura ao passar o mouse */
+        }
+    </style>
+</head>
+
+<body style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0;">
+
+    <head>
+        <h1>Seja bem vindo!</h1>
+    </head>
+
+    <form action="/produtosLojista" method="get">
+        <button type="submit">Acessar Produtos</button>
+    </form>
+
+    <a href="/logout">Sair</a>
+</body>
+
+</html>

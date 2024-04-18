@@ -1,0 +1,65 @@
+/* styleCadastro.css */
+
+/* Estilo para o corpo da página */
+body {
+    background-image: url('fundo3.jpg'); /* Adicionando a imagem de fundo */
+    background-size: cover; /* Fazendo a imagem cobrir todo o fundo */
+    background-position: center; /* Centralizando a imagem */
+    background-repeat: no-repeat; /* Evitando a repetição da imagem */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
+
+/* Estilo para o formulário */
+form {
+    width: 350px; /* Aumentando um pouco a largura do formulário */
+    padding: 20px;
+    border-radius: 8px; /* Borda arredondada */
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Cor de fundo com transparência */
+    border: 20px solid #dddddd; /* Borda mais suave */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para os rótulos */
+form label {
+    display: block; /* Colocar cada rótulo em uma nova linha */
+    margin-bottom: 10px; /* Espaçamento abaixo do rótulo aumentado */
+}
+
+/* Estilo para os campos de entrada */
+form input[type="text"],
+form input[type="password"] {
+    width: 100%;
+    margin-bottom: 15px; /* Aumentando o espaçamento abaixo dos campos */
+    padding: 10px; /* Aumentando o espaçamento interno */
+    border: 1px solid #cccccc; /* Borda mais suave */
+    border-radius: 5px; /* Borda arredondada */
+}
+
+/* Estilo para o botão */
+form button[type="submit"] {
+    width: 100%;
+    margin-top: 15px; /* Aumentando o espaçamento acima do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px; /* Borda arredondada */
+    padding: 12px; /* Aumentando o espaçamento interno */
+    cursor: pointer;
+    background-image: url('fundo4.jpg'); /* Adicionando a imagem de fundo ao botão */
+    background-size: cover; /* Fazendo a imagem cobrir todo o botão */
+    transition: background-color 0.3s, filter 0.3s; /* Transição suave de cor e filtro ao passar o mouse */
+}
+
+form button[type="submit"]:hover {
+    filter: brightness(0.8); /* Escurecendo o botão ao passar o mouse */
+}
+
+/* Estilo para o link "Não tenho conta" */
+form p a {
+    color: #333; /* Cor do link */
+    text-decoration: none;
+}
+
+form p a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}

@@ -1,0 +1,51 @@
+/* Estilo para o formulário */
+form {
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background-color: #f9f9f9; /* Cor de fundo */
+    border: 10px solid #f9f9f9; /* Borda */
+}
+
+/* Estilo para os campos de entrada */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ddd; /* Borda dos campos de entrada */
+    border-radius: 3px;
+}
+
+/* Estilo para o botão */
+button[type="submit"] {
+    width: 100%;
+    margin-top: 15px; /* Aumentando o espaçamento acima do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px; /* Borda arredondada */
+    padding: 12px; /* Aumentando o espaçamento interno */
+    cursor: pointer;
+    background-image: url('fundo2.jpg'); /* Adicionando a imagem de fundo ao botão */
+    background-size: cover; /* Fazendo a imagem cobrir todo o botão */
+    transition: background-color 0.3s, filter 0.3s; /* Transição suave de cor e filtro ao passar o mouse */
+}
+
+button[type="submit"]:hover {
+    filter: brightness(0.8); /* Escurecendo o botão ao passar o mouse */
+}
+
+/* Estilo para o link "Não tenho conta" */
+p a {
+    color: #333; /* Cor do link */
+    text-decoration: none;
+}
+
+body {
+    background-image: url('fundo.jpg'); /* Adicionando a imagem de fundo */
+    background-size: cover; /* Fazendo a imagem cobrir todo o fundo */
+    background-position: center; /* Centralizando a imagem */
+    background-repeat: no-repeat; /* Evitando a repetição da imagem */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}

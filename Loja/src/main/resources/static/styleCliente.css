@@ -1,0 +1,41 @@
+/* styleCliente.css */
+
+/* Estilo para o corpo da página */
+body {
+    background-image: url('fundo.jpg'); /* Adicionando a imagem de fundo */
+    background-size: cover; /* Fazendo a imagem cobrir todo o fundo */
+    background-position: center; /* Centralizando a imagem */
+    background-repeat: no-repeat; /* Evitando a repetição da imagem */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    display: auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+/* Estilo para o cabeçalho */
+h1 {
+    color: #ffffff; /* Cor do texto */
+    text-align: center; /* Centralizando o texto */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+/* Estilo para os botões */
+form button[type="submit"],
+a {
+    color: #ffffff; /* Cor do texto */
+    background-color: #0074d9; /* Cor de fundo */
+    border: none;
+    border-radius: 5px; /* Borda arredondada */
+    padding: 12px 20px; /* Espaçamento interno */
+    cursor: pointer;
+    text-decoration: none; /* Removendo sublinhado do link */
+    margin-top: 20px; /* Espaçamento superior */
+    transition: background-color 0.3s; /* Transição suave de cor ao passar o mouse */
+}
+
+form button[type="submit"]:hover,
+a:hover {
+    background-color: #0056b3; /* Cor de fundo mais escura ao passar o mouse */
+}
